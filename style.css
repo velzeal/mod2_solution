@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+
+.meat{
+  
+  top: 0;
+  background-color:#999999;
+  padding: 20px;
+  border: 4px solid #000;
+  position: relative;
+  margin: 10px;
+}
+
+.meat p{
+  margin-top: 20px;
+  text-align: justify;
+  
+}
+
+.meat-title{
+  
+  background: green; 
+  padding: 10px 100px;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  position: absolute;
+  top:0;
+  right: 0px;
+}
+
+#one {
+  background-color: #D59898;
+} 
+
+#two{
+  background-color: #C14543;
+}
+
+#three{
+  background-color: #E5D198;
+}
+
+
+@media (min-width: 990px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;  
+  }
+  .col-lg-1 {
+    width: 5%;
+  }
+  .col-lg-2 {
+    width: 10%;
+  }
+  .col-lg-3 {
+    width: 20%;
+  }
+  .col-lg-4 {
+    width: 30%;
+  }
+  .col-lg-5 {
+    width: 40%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 50%;
+  }
+  .col-lg-8 {
+    width: 60%;
+  }
+  .col-lg-9 {
+    width: 70%;
+  }
+  .col-lg-10 {
+    width: 80%;
+  }
+  .col-lg-11 {
+    width: 90%;
+  }
+  .col-lg-12 {
+    width: 110%;
+  }
+
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;  
+}
+
+.row{
+  width: 110%;
+}
+
+.menu{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.container{
+ position: relative;
+ top:65px;
+ margin: 20px; 
+}
+@media (max-width: 700px){
+  .col-lg-4{
+    width: 90%;
+    float: left;
+  }
+}
+@media (min-width: 700px) and (max-width: 900px){
+  .col-lg-4 {
+    width: 60%;
+    float: left;
+  }
+  .col-lg-tablet{
+   width: 90%;
+   float: left;
+ }
+}
+
+
